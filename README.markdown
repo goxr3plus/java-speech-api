@@ -36,8 +36,8 @@ public class TryGoogleSpeechRecognitionSimple implements GSpeechResponseListener
 	
 	public static void main(String[] args) throws IOException {
 		final Microphone mic = new Microphone(FLACFileWriter.FLAC);
-		//Don't use the below google api key , make your own !!! :) 
-		GSpeechDuplex duplex = new GSpeechDuplex("AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw");
+		// You have to make your own GOOGLE_API_KEY 
+		GSpeechDuplex duplex = new GSpeechDuplex("GOOGLE_API_KEY");
 		
 		duplex.setLanguage("en");
 		
