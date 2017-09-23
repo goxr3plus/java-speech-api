@@ -1,3 +1,11 @@
+# If you want to add changes to the Library , you have to download it and run Maven Clean Package like below :
+
+```mvn -Dmaven.javadoc.skip=true clean package```  [ Because some methods have no comments , that will change soon ]
+
+
+
+----
+
 # J.A.R.V.I.S. (Java-Speech-API)
 
 J.A.R.V.I.S. Java Speech API: Just A Reliable Vocal Interpreter & Synthesizer. 
@@ -20,9 +28,6 @@ The API currently provides the following functionality,
   * A translator using Google Translate (courtesy of Skylion's Google Toolkit)
 
 ## Notes
-
-To get access to the Google API, you need an API key. To get this, you need to follow the instructions here: 
-* https://stackoverflow.com/questions/26485531/google-speech-api-v2
 
 A sample application using this library can be found here:
 * See API-Example repository branch. 
