@@ -365,11 +365,16 @@ public class GSpeechDuplex {
 	 * Force HttpsPostConnection Thread to Stop , Closes this audio input stream and releases any system resources associated with the stream.
 	 */
 	public void stopSpeechRecognition() {
-		try {
-			ais.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		//AudioInputStream != null
+		if (ais != null)
+			try {
+				//Close the AudioInput Stream
+				//so forcing AudioSystem.write(....) to exit , so UpStream Thread will be closed
+				ais.close();
+			} catch (Exception ex) { //catch a general exception here to have our mind peaceful
+				ex.printStackTrace();
+			}
+		
 	}
 	
 	/**
