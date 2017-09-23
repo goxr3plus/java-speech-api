@@ -3,6 +3,9 @@
 ```mvn -Dmaven.javadoc.skip=true clean package```  [ Because some methods have no comments , that will change soon ]
 
 
+# Create your own Google_API_KEY from this website
+
+https://cloud.google.com/speech/   [Requires Credit Card but is free for first 12 months , you can cancel it anytime ]
 
 ----
 
