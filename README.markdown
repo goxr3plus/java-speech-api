@@ -1,6 +1,10 @@
-# If you want to add changes to the Library , you have to download it and run Maven Clean Package like below :
+# Maven Clean Package [ With Javadocs produced ]
 
-```mvn -Dmaven.javadoc.skip=true clean package```  [ Because some methods have no comments , that will change soon ]
+```mvn -Dmaven.javadoc.skip=true clean package``` 
+
+# Maven Clean Package [ No Javadocs produced ]
+
+```mvn -Dmaven.javadoc.skip=true clean package``` 
 
 
 # Create your own Google_API_KEY from this website
