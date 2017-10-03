@@ -1,8 +1,13 @@
-# Maven Clean Package [ With Javadocs produced ]
+Java 8 version of this Library here - >  https://github.com/goxr3plus/java-google-speech-api
 
-```mvn -Dmaven.javadoc.skip=true clean package``` 
 
-# Maven Clean Package [ No Javadocs produced ]
+##---Maven Build--
+
+### Maven Clean Package [ With Javadocs produced ]
+
+```mvn clean package``` 
+
+### Maven Clean Package [ No Javadocs produced ]
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
 
