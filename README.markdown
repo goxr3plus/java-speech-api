@@ -1,7 +1,10 @@
 Java 8 version of this Library here - >  https://github.com/goxr3plus/java-google-speech-api
 
 
-##---Maven Build--
+
+---
+
+##Maven Build
 
 ### Maven Clean Package [ With Javadocs produced ]
 
@@ -10,6 +13,8 @@ Java 8 version of this Library here - >  https://github.com/goxr3plus/java-googl
 ### Maven Clean Package [ No Javadocs produced ]
 
 ```mvn -Dmaven.javadoc.skip=true clean package``` 
+
+---
 
 
 # Create your own Google_API_KEY from this website
