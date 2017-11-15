@@ -1,5 +1,4 @@
-Java 8 version of this Library here - >  https://github.com/goxr3plus/java-google-speech-api
-
+**I am supporting only Java 8 version of this Library**- >  https://github.com/goxr3plus/java-google-speech-api
 
 
 ---
@@ -17,9 +16,12 @@ Java 8 version of this Library here - >  https://github.com/goxr3plus/java-googl
 ---
 
 
-# Create your own Google_API_KEY from this website
+#### Create your own Google_API_KEY , watch the tutorial below 
 
-https://cloud.google.com/speech/   [Requires Credit Card but is free for first 12 months , you can cancel it anytime ]
+| Create Google Cloud Account | Generate Speech Recognition API Keys |
+|:-:|:-:|
+| [![First](http://img.youtube.com/vi/1sdLrUfMBdI/0.jpg)](https://www.youtube.com/watch?v=1sdLrUfMBdI)  | [![Second](http://img.youtube.com/vi/8MbomlmxKXU/0.jpg)](https://www.youtube.com/watch?v=8MbomlmxKXU) |
+
 
 # Basic Example code to get started with [ Try it :) ]
 
